@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rupert Analytics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">Rupert Analytics <span id="pulled" class="muted"></span></div>
+    <nav>
+      <button class="tab active" data-tab="overview">Overview</button>
+      <button class="tab" data-tab="targets">Targets</button>
+    </nav>
+    <button id="refresh" class="btn primary">Refresh</button>
+  </header>
+
+  <div id="banner" class="banner hidden"></div>
+
+  <main>
+    <section id="screen-overview" class="screen">
+      <div id="cards" class="cards"></div>
+      <div class="toolbar">
+        <div class="filters" id="filters">
+          <button class="chip-btn active" data-filter="all">All</button>
+          <button class="chip-btn" data-filter="long">Long-form</button>
+          <button class="chip-btn" data-filter="short">Shorts</button>
+        </div>
+        <span id="count" class="muted"></span>
+      </div>
+      <div class="table-wrap">
+        <table id="videos">
+          <thead id="thead"></thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+      <div id="notes" class="footnote"></div>
+    </section>
+
+    <section id="screen-video" class="screen hidden">
+      <a href="#" id="back" class="back">&larr; Back to all videos</a>
+      <div id="videoView"></div>
+    </section>
+
+    <section id="screen-targets" class="screen hidden">
+      <div id="targetsView"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

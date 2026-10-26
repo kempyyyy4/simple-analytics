@@ -1,0 +1,55 @@
+{
+  "long": {
+    "ctr": {
+      "label": "Click-through rate (CTR)",
+      "unit": "%",
+      "decimals": 1,
+      "red_below": 3,
+      "green_above": 5
+    },
+    "avp": {
+      "label": "Average % viewed",
+      "unit": "%",
+      "decimals": 1,
+      "red_below": 30,
+      "green_above": 45
+    },
+    "first30": {
+      "label": "First-30-seconds retention",
+      "unit": "%",
+      "decimals": 1,
+      "red_below": 60,
+      "green_above": 70
+    },
+    "subsPer1k": {
+      "label": "Subs gained per 1,000 views",
+      "unit": "",
+      "decimals": 1,
+      "red_below": 2,
+      "green_above": 5
+    }
+  },
+  "short": {
+    "engaged": {
+      "label": "Engaged-view rate (watched vs swiped away)",
+      "unit": "%",
+      "decimals": 1,
+      "red_below": 60,
+      "green_above": 75
+    },
+    "avp": {
+      "label": "Average % viewed",
+      "unit": "%",
+      "decimals": 1,
+      "red_below": 70,
+      "green_above": 90
+    },
+    "subsPer1k": {
+      "label": "Subs gained per 1,000 views",
+      "unit": "",
+      "decimals": 1,
+      "red_below": 2,
+      "green_above": 5
+    }
+  }
+}

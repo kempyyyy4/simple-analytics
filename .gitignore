@@ -1,0 +1,23 @@
+# Secrets: Google sign-in files. Never commit these.
+client_secret*.json
+client secret*.json
+Client Secret*.json
+*secret*.json
+token.json
+*token*.json
+Analytics PC Clients.txt
+
+# Local data and caches
+*.db
+state.json
+server.log
+app.log
+reports/
+cache/
+
+# Python environment and build output
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/

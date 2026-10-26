@@ -1,0 +1,87 @@
+{
+  "_help": "Edit the wording here. Keep the quotes and commas. {time}, {lost}, {source} and {share} are filled in automatically. Changes show up the next time you open the Video page.",
+  "verdicts": {
+    "too_early": "Too early to judge: it's under 48 hours old.",
+    "not_enough": "Not enough data yet to judge the numbers.",
+    "packaging": "Packaging problem, not content problem",
+    "packaging_and_delivery": "Packaging and delivery both need work",
+    "distribution": "Distribution problem: YouTube isn't testing it widely",
+    "delivery": "Delivery problem: the title works, but the video isn't keeping people",
+    "retention": "Retention problem: viewers leave early or at one point",
+    "no_return": "Working, but nothing brings viewers back",
+    "mixed": "Mixed: see the flagged metrics below",
+    "working": "Working: keep this formula",
+    "short_hook": "Hook problem: the first second isn't stopping the scroll",
+    "short_end": "Doesn't hold viewers to the end",
+    "short_working": "Working: keep this Short's format"
+  },
+  "problems": {
+    "packaging_clicks": {
+      "title": "The thumbnail or title isn't pulling clicks",
+      "why": "People are being shown it but not choosing it. The thumbnail or title isn't giving them a reason to click.",
+      "try": "Check the thumbnail reads at phone size (one face or one big object, three words at most). Check the title asks a question or sets up a tension. Check the title and thumbnail don't say the same thing twice."
+    },
+    "low_impressions": {
+      "title": "YouTube isn't testing it widely",
+      "why": "Few people are being shown it. Either the topic has little search or browse demand, or the early click and watch signals were weak, so YouTube stopped pushing it.",
+      "try": "Check the title uses words people actually search for. If the topic is niche, pair it with a broader angle next time. Make sure the first 30 seconds hold people, so the early signals are strong."
+    },
+    "ctr_good_avp_low": {
+      "title": "The title promises more than the video delivers",
+      "why": "The click is working, but people leave once they're in. The video isn't delivering what the title promised, or the intro is slow.",
+      "try": "Check the first 30 seconds: does the video confirm the title's promise in that time? Cut any warm-up or recap before the payoff. Make the title's promise the first thing the video delivers."
+    },
+    "weak_hook": {
+      "title": "The opening isn't holding people",
+      "why": "Too many viewers leave in the first 30 seconds. The hook is weak, or it doesn't confirm the title fast enough.",
+      "try": "Rewrite the first 30 seconds. Open on the most surprising fact or a sharp question, then confirm the title's promise within about 10 seconds. Cut any channel intro or 'in this video we'll...' preamble."
+    },
+    "big_drop": {
+      "title": "A big drop at {time}",
+      "why": "About {lost} percentage points of the audience left around {time}. Something at that moment is losing people: a tangent, a slow explanation, or a stretch with no new visual.",
+      "try": "Open the script at {time}. Look for a tangent, an explanation longer than about 20 seconds, or a stretch on the same visual. Cut it, or add a new visual or a question there."
+    },
+    "no_return": {
+      "title": "Nothing brings viewers back",
+      "why": "People watch but don't subscribe, and don't move on to another video. There's no reason to come back.",
+      "try": "End with a clear next-video tease (\"next week: ...\"). Frame it as part of a named series. Point to one specific video at the end, not a general 'check out my channel'."
+    },
+    "one_source": {
+      "title": "Mostly one traffic source: {source} ({share}% of views)",
+      "why": "Most of the views come from one place. That means the video depends on one system: if YouTube changes how it recommends that source, views fall with it.",
+      "try": "Treat this as a clue, not a verdict. For search, keep titles keyword-led. For browse or suggested, strong CTR and retention feed those systems. For external, a clear reason to share helps."
+    },
+    "short_hook": {
+      "title": "The first second isn't grabbing people",
+      "why": "Many viewers swipe away before the Short gets going.",
+      "try": "Lead with the payoff or the shocking line in the first second. Cut any setup. Put a text hook on screen from the first frame."
+    },
+    "short_end": {
+      "title": "Viewers don't stay to the end",
+      "why": "Viewers drop off before the Short finishes, so the average watched share is low.",
+      "try": "Cut about 20% of the length. Make sure the last line pays off the first. A loop back into the start can help if the ending allows it."
+    }
+  },
+  "generic": {
+    "ctr": {
+      "why": "Fewer people click than the target.",
+      "try": "Run the same checks as for the thumbnail and title: phone-size test, a question in the title, and no repeated message."
+    },
+    "avp": {
+      "why": "Viewers watch a smaller share of the video than the target.",
+      "try": "Check the first 30 seconds and the biggest drop on the retention chart, then cut or tighten that part."
+    },
+    "first30": {
+      "why": "Too many viewers leave in the first 30 seconds.",
+      "try": "Open on the payoff or a sharp question, and confirm the title within about 10 seconds."
+    },
+    "engaged": {
+      "why": "Too many viewers swipe away before the Short has done its job.",
+      "try": "Lead with the payoff or the shocking line in the first second."
+    },
+    "subsPer1k": {
+      "why": "Viewers aren't converting into subscribers.",
+      "try": "Give a clear reason to subscribe and a clear next video to watch."
+    }
+  }
+}
